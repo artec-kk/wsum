@@ -1,34 +1,34 @@
 # wsum
-Scartch3.0‚ÅƒƒbƒZ[ƒW‚Æ‚»‚ê‚ğg—p‚µ‚Ä‚¢‚éƒXƒvƒ‰ƒCƒg‚ğ’²¸‚·‚éƒRƒ}ƒ“ƒh
+Scartch3.0ã§ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã¨ãã‚Œã‚’ä½¿ç”¨ã—ã¦ã„ã‚‹ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆã‚’èª¿æŸ»ã™ã‚‹ã‚³ãƒãƒ³ãƒ‰
 
 ## Usage
 
 wsum.exe sb3_project [csv]
 
-Scratch3.0‚ÌƒvƒƒWƒFƒNƒg‚ğ“n‚·‚ÆAƒƒbƒZ[ƒW‚Æ‚»‚ê‚ğg—p‚µ‚Ä‚¢‚éƒXƒvƒ‰ƒCƒg‚ÌƒŠƒXƒg‚ğ‰º‹L‚ÌjsonŒ`®‚Åo—Í‚µ‚Ü‚·B  
->{'•Ï”–¼1': ['ƒXƒvƒ‰ƒCƒg1', 'ƒXƒvƒ‰ƒCƒg2'...], '•Ï”–¼2': ['ƒXƒvƒ‰ƒCƒg1', 'ƒXƒvƒ‰ƒCƒg3'...] ... }
+Scratch3.0ã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã‚’æ¸¡ã™ã¨ã€ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã¨ãã‚Œã‚’ä½¿ç”¨ã—ã¦ã„ã‚‹ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆã®ãƒªã‚¹ãƒˆã‚’ä¸‹è¨˜ã®jsonå½¢å¼ã§å‡ºåŠ›ã—ã¾ã™ã€‚  
+>{'å¤‰æ•°å1': ['ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆ1', 'ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆ2'...], 'å¤‰æ•°å2': ['ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆ1', 'ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆ3'...] ... }
 
-csvƒIƒvƒVƒ‡ƒ“‚ğ•t‚¯‚é‚ÆcsvŒ`®‚Åo—Í‚µ‚Ü‚·B  
->•Ï”–¼1, ƒXƒvƒ‰ƒCƒg1, ƒXƒvƒ‰ƒCƒg2  
-•Ï”–¼2, ƒXƒvƒ‰ƒCƒg1, ƒXƒvƒ‰ƒCƒg3  
+csvã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’ä»˜ã‘ã‚‹ã¨csvå½¢å¼ã§å‡ºåŠ›ã—ã¾ã™ã€‚  
+>å¤‰æ•°å1, ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆ1, ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆ2  
+å¤‰æ•°å2, ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆ1, ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆ3  
 ...
 
 ## Example
 
 
-‰º‹L‚©‚çƒ_ƒEƒ“ƒ[ƒh‚µ‚½ƒvƒƒWƒFƒNƒg("Dear Lisa.sb3")‚É‘Î‚µ‚ÄÀs‚µ‚½Œ‹‰Ê‚Å‚·B  
+ä¸‹è¨˜ã‹ã‚‰ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ("Dear Lisa.sb3")ã«å¯¾ã—ã¦å®Ÿè¡Œã—ãŸçµæœã§ã™ã€‚  
 
 https://scratch.mit.edu/projects/314166329/editor/
 
 
 ```
-wsuv.exe "Dear Lisa.sb3"
+wsum.exe "Dear Lisa.sb3"
 ```
 
 {'End Intro': ['Stage', 'Open Text', 'CB'], 'open card': ['Control', 'CB'], 'next': ['Stage', 'Open Text', 'Control', 'CB', 'Zinnea', 'mres', 'me_win', 'me_win2', 'Champ99', 'Lilyland', 'Khanning', 'KayOh', 'carmelo', 'Eric1', 'Eric2', 'Eric3', 'Me', 'ChrisG', 'Shruit', 'End Text', 'Thumbnail'], 'end': ['Open Text', 'Control', 'Shruit'], 'change intro slide': ['Stage', 'Open Text'], 'me_win_final': ['me_win', 'me_win2'], 'Make Art!': ['KayOh'], 'Eric': ['Eric1', 'Eric2', 'Eric3'], 'shruti': ['Shruit'], 'end-2': ['Open Text', 'End Text']}
 
 ```
-wsuv.exe "Dear Lisa.sb3" csv
+wsum.exe "Dear Lisa.sb3" csv
 ```
 
 End Intro,Stage,Open Text,CB,
